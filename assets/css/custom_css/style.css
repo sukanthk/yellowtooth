@@ -1,0 +1,654 @@
+.no_padding {
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.top-nav-collapse .navbar-brand {
+  display: block;
+}
+
+/* About Us Section Style */
+
+.about_us_p_tag {
+  font-weight: normal !important;
+  line-height: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.about_us_section {
+  float: left;
+}
+
+.about_us_sec_color {
+  background: #e2e2e2;
+}
+
+.about_us_sec_panel {
+  float:left;
+  width: 100%;
+  position: relative;
+}
+
+.about_us_body_sec {
+  float: left;
+  width: 100%;
+  height: 500px;
+  text-align: right;
+  padding-right: 0;
+}
+
+.about_us_image_style {
+  float: left;
+  padding-right: 0;
+  width: 24%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about_us_image_style img {
+  float: left;
+  width: 100%;
+}
+
+.about_us_text_sec {
+  height: 450px;
+  display: block;
+  align-items: center;
+  font-size: 18px;
+  float: right;
+  width: 76%;
+  line-height: 32px;
+  text-align: justify;
+  padding: 0px 30px 0 30px;
+}
+
+.about_us_text_style {
+  float:left;
+  width:48%;
+  padding-left: 90px;
+  line-height: 40px;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.about_us_icon_section {
+  float: right;
+  width: 48%;
+  margin-left: 4%;
+}
+
+.about_us_icon_section img {
+  width: 100%;
+  height: 100%;
+}
+
+/* About Us Section Style */
+
+/* Services Section Style */
+
+.services_section {
+  padding-top: 60px;
+}
+
+.services_thumbnail_section {
+  float:left;
+  width:100%;
+  padding-left: 140px;
+}
+
+.yellowtooth_services {
+  position: relative;
+}
+
+.branding_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.tv_commercials_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.corporate_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.animation_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.graphics_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.photoshoot_services {
+  float: left;
+  width: auto;
+  cursor:pointer;
+}
+
+.selected_service_style {
+	color: #efaf3e;
+}
+
+.selected_service_style:after {
+  position: absolute;
+  content: '';
+  left: 30%;
+  bottom: 0px;
+  width: 40%;
+  height: 1px;
+  background-color: #efaf3e;
+}
+
+.yellowtooth_services:hover {
+  color: #efaf3e;
+}
+
+.services_thumbnail_img_section {
+  float: left;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.services_thumbnail_img_section img {
+  height:100%;
+}
+
+.services_thumbnail_text_section {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-top: 8px;
+}
+
+.services_text_section {
+  float:left;
+  width:40%;
+  padding-left: 100px;
+  padding-top: 60px;
+}
+
+.services_content_section {
+  float: left;
+  width: 100%;
+  padding: 40px;
+  display: none;
+  height: 280px;
+}
+
+.services_content_section_show {
+  display: block !important;
+}
+
+.services_sub_heading_style {
+  float: left;
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.services_text_style {
+  float:left;
+  width:100%;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.services_example_section {
+  float: left;
+  width: 60%;
+  padding-top: 35px;
+  text-align: center;
+  display: none;
+}
+
+.services_desc_panel {
+  float: left;
+  width: 100%;
+}
+
+.services_desc_panel img {
+  width: 500px;
+  transform: rotate(-4deg);
+  margin-top: -110px;
+}
+
+.services_desc_panel iframe {
+  margin-top: -110px;
+}
+
+/* Services Section Style */
+
+/* Portfolio Section Style */
+
+#portfolio_sec {
+  background: #f1f8ff;
+}
+
+.portfolio_logo_section {
+  float: left;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.portfolio_logo_style {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.portfolio_logo_style img {
+  width:50%;
+  height:100%;
+}
+
+.portfolio_image_panel {
+  float:left;
+  width:100%;
+  padding: 0;
+  overflow: hidden;
+  height: 700px;
+}
+
+.portfolio_image_section {
+  float:left;
+  width: 100%;
+  height: 690px;
+  transform: rotate(-9deg);
+  margin-left: 60px;
+}
+
+.portfolio_image_section img:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform .5s;
+    position: relative;
+    z-index: 10;
+}
+
+.portfolio_banner_style {
+  float: left;
+  width: 25%;
+  height: 170px;
+  padding: 0 15px 15px 0;
+}
+
+.portfolio_banner_style img {
+  width:100%;
+  height:100%;
+  box-shadow: 1px 1px 13px 6px #c7c7c7;
+  cursor:pointer;
+}
+
+.portfolio_image {
+  display: inline-block;
+  max-width: 90vw;
+}
+
+.portfolio_image img{
+  width: 100%;
+}
+
+/* Portfolio Section Style */
+
+/* Team Section Style */
+
+#team_sec {
+  padding-top: 40px;
+}
+
+.team_section_panel {
+  text-align: center;
+  font-size: 0;
+}
+
+.team_image_style {
+  width:9%;
+  display: inline-block;
+  margin: 35px 50px 30px 50px;
+  vertical-align: top;
+}
+
+.team_image_block {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.team_image_sec {
+  display: inline-block;
+  box-shadow: 1px 1px 7px 2px #dedede;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 130px;
+  width: 130px;
+}
+
+.team_image_sec img {
+  width:100%;
+  height: 100%;
+  background: white;
+}
+
+.team_icon_sec {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.team_facebook_logo {
+  margin-right: -1px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+.team_wiki_logo {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.team_imdb_logo {
+  cursor:pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.team_twitter_logo {
+  cursor:pointer;
+  width: 26px;
+  height: 26px;
+  margin-right: 2px;
+}
+
+.team_user_name {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.team_user_role {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Team Section Style */
+
+/* Contact Us Section Style */
+
+#contact_sec {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.contact_us_sec_background {
+  position: absolute;
+  height: 100%;
+  opacity: 0.5;
+  right: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contatc_us_map_sec {
+  float: left;
+  width: 100%;
+}
+
+.contatc_us_addr_sec {
+  float: left;
+  width: 100%;
+  display: flex;
+  height: 250px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.contact_map_section {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.contact_map_section iframe {
+  width: 100%;
+  height: 250px;
+}
+
+.contact_address_sec {
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+
+.contact_yellowtooth_address {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contact_follow_us_section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact_follow_us_section .widget{
+  float: left;
+  width: 100%;
+}
+
+.contact_us_sub_heading {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.contact_us_sub_heading:after {
+  position: absolute;
+  content: '';
+  left: 40%;
+  bottom: -1px;
+  width: 25%;
+  height: 1px;
+  background-color: #efaf3e;
+}
+
+.contact_us_sub_heading:before {
+  position: absolute;
+  content: '';
+  left: 30%;
+  bottom: 4px;
+  width: 25%;
+  height: 1px;
+  background-color: #efaf3e;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+
+.facebook_button {
+  color: #fff;
+  background: #3c59a5;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 5px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.facebook_button:hover {
+  color: white;
+  background: #334b8c;
+}
+
+.twitter_button {
+  color: #fff;
+  background: #00aced;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 5px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.twitter_button:hover {
+  color: white;
+  background: #0797ce;
+}
+
+.youtube_button {
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 5px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+/* Contact Us Section Style */
+
+.youtube-player {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	background: #000;
+	margin: 5px;
+	display: inline-block;
+}
+
+.youtube-player iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: transparent;
+}
+
+.youtube-player img {
+	bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto !important;
+    max-width: 100%;
+    width: 100% !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+    transform: rotate(0deg);
+}
+
+.youtube-player img:hover {
+	-webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+	height: 72px;
+	width: 72px;
+	left: 50%;
+	top: 50%;
+	margin-left: -36px;
+	margin-top: -36px;
+	position: absolute;
+	background: url("../../../images/youtube_play_button.png") no-repeat;
+	cursor: pointer;
+}
+
+.homeBackgroundimg {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	box-shadow: none;
+	transition-property: width, height, top, left, box-shadow, z-index;
+	transition-duration: 1s;
+	z-index: 0;
+}
+.active_background{
+	height: 110%;
+	width: 110%;
+	box-shadow: 0px 2px 10px 10px grey;
+	left: -5%;
+	top: -5%;
+	z-index: 10;
+}
